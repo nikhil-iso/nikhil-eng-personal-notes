@@ -1,0 +1,17 @@
+# Keep notebooks and text files readable in diffs where practical.
+*.md text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# Treat retained media and documents as binary artifacts.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.zip binary
